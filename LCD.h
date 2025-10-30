@@ -1,12 +1,13 @@
-/** Verwendet SoftwareI2C von:
+/**
+ * Verwendet SoftwareI2C von:
  * mbed Library to use a software master i2c interface on any GPIO pins
  * Copyright (c) 2012 Christopher Pepper
  * Released under the MIT License: http://mbed.org/license/mit
  *
-  * Example:
+ * Example:
  * @code
  * #include "LCD.h"
-
+ *
  * lcd myLCD;
  * int main() {  
  *     int x=0;
@@ -24,8 +25,7 @@
 #include "mbed.h"
 #include "SoftwareI2C.h" 
    
-class lcd
-{   
+class lcd{
     private:
     uint8_t Adresse;//=0x3F;
     //DigitalOut *ok;
